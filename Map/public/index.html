@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    
+    <title>MAP</title>
+    <link rel="stylesheet" href="stylee.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="icon" type="image/x-icon" href="Favicon.png">
+</head>
+<body>
+<div id="toolbar">
+    <div class="dropdown">
+        <button id="filterDropdownButton">Filter</button>
+        <div class="dropdown-content" id="disasterFilters">
+            <label><input type="checkbox" id="wildfires" value="wildfires">Wildfires</label>
+       
+            <label><input type="checkbox" id="volcanoes" value="volcanoes">Volcanoes</label>
+            <label><input type="checkbox" id="severeStorms" value="severeStorms">Severe Storms</label>
+        
+        </div>
+    </div>
+    <button class="button" id="1">News</button>
+    <button class="button" id="2">How can i <br> prepare</button>
+    <button class="button" id="3">How can i <br>respond</button>
+    <button class="button" id="4">How can i <br>recover</button>
+    <button  id="toggleSatelliteButton">Toggle Satellite View</button>
+
+</div>
+<div class="all">
+<div class="container">
+<div id="map" ></div>
+</div>
+<div class="screen">
+<div class="text">
+
+</div>
+    </div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="javascript.js"></script>
+<script src="chatPublic.js"></script>
+</body>
+</html>

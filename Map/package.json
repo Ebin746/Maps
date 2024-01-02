@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "axios": "^1.6.2",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "newsapi": "^2.4.1",
+    "node-fetch": "^2.7.0",
+    "nodemon": "^3.0.2",
+    "openai": "^4.0.0"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "name": "achatmap",
+  "version": "1.0.0",
+  "main": "chat.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
